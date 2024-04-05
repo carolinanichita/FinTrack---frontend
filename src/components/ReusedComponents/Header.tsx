@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import './Header.css'
 import { Link, useNavigate } from 'react-router-dom';
 
-
 function a11yProps(index: number) {
   return {
     id: `simple-tab-${index}`,

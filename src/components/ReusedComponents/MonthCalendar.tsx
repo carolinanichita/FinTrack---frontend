@@ -8,7 +8,6 @@ import Box from '@mui/material/Box';
 
 const MonthCalendar = () => {
 
-
   return (
     <div>
       <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>

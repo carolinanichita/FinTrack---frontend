@@ -5,7 +5,6 @@ import DialogContent from '@mui/material/DialogContent';
 import TextField from '@mui/material/TextField';
 import { useState } from 'react';
 
-
 interface MonthYearPickerProps {
   open: boolean;
   onClose: () => void;

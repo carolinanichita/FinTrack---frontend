@@ -5,7 +5,6 @@ type CustomToolbarProps = {
   changeMonth: (arrowFunction : string)=> void ;
 }
 
-
 const CustomToolbar = (props: CustomToolbarProps) => {
 
   const handleOnClickNext = () => {
@@ -16,8 +15,6 @@ const CustomToolbar = (props: CustomToolbarProps) => {
     props.changeMonth('PREV');
     props.onNavigate('PREV');
   }
-
-
 
   return (
     <div className="custom-toolbar">

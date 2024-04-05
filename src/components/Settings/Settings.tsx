@@ -37,13 +37,7 @@ interface CategoryExpenseTableDay {
     categoryExpenseRows: CategoryExpenseRow[];
 }
 
-// interface CategoryIncomeTableDay {
-//     categoryIncomeRows: CategoryIncomeRow[];
-// }
-
 const Settings = (props: SettingsProps) => {
-    // const [accountTableDays, setAccountTableDays] = useState<AccountTableDay[]>([]);
-    // const [categoryIncomeTableDays, setCategoryIncomeTableDays] = useState<CategoryIncomeTableDay[]>([]);
     const [categoryExpenseTableDays, setCategoryExpenseTableDays] = useState<CategoryExpenseTableDay[]>([]);
     const [expanded, setExpanded] = useState<string | false>(false);
     const [accounts, setAccounts] = useState<{ accountId: string, accountName: string }[]>([]);
@@ -142,7 +136,6 @@ const Settings = (props: SettingsProps) => {
     const addNewAccountToTheList = (newAccountRow: AccountRow) => {
         console.log(newAccountRow);
         
-        // setAccountTableDays(prevAccountTableDays => [...prevAccountTableDays, { accountRows: [newAccountRow] }]);
         getAllAccounts();
         handleNewAccountCategoryClose();
     };
@@ -156,7 +149,6 @@ const Settings = (props: SettingsProps) => {
 
     const addNewCategoryIncomeToTheList = (newCategoryIncomeRow: CategoryIncomeRow) => {
         console.log("newCategoryRow inside addNewCategoryIncomeToTheList", newCategoryIncomeRow);
-        // setCategoryIncomeTableDays(prevCategoryIncomeTableDays => [...prevCategoryIncomeTableDays, { categoryIncomeRows: [newCategoryIncomeRow] }]);
         getAllCategories();
         handleCategoryIncomeClose();
     }

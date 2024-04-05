@@ -24,7 +24,6 @@ interface TabelDayProps {
   dateProp: string;
 }
 
-
 const TabelDay = ({ table, dateProp }: TabelDayProps) => {
   const { rows } = table || { rows: [] };
   const [totalIncome, setTotalIncome] = useState(0);
