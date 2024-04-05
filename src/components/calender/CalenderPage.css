@@ -1,0 +1,21 @@
+.rbc-toolbar {
+    display: none;
+  }
+  .custom-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .custom-toolbar-button {
+    cursor: pointer;
+    padding: 3px 15px 5px;
+    font-size: 25px;
+  }
+  
+  .custom-toolbar-label {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  

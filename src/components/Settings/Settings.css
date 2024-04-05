@@ -1,0 +1,8 @@
+
+.add-btn {
+    min-width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(75, 142, 241);
+    color: white;
+}

@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60%;
+    justify-content: center;
+}
+
+.month-year-picker {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbarcomponents {
+    margin-bottom: 40px;
+}
+
+.containerExample {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.choose-month-btn {
+    min-width: 200px;
+}
+
+.inc-exp-tot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 128px;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.transactions-text {
+    color: rgb(34, 33, 33);
+    margin-bottom: 5px;
+}
+
+.income-amount {
+    color: #0a5daa;
+    font-size: 20px;
+}
+
+.expense-amount {
+    color: #b12626;
+    font-size: 20px;
+}
+
+.total-amount {
+    color: #437043;
+    font-size: 20px;
+}

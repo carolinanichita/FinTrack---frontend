@@ -1,0 +1,13 @@
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 24px;
+  padding: 16px;
+  max-height: 500px;
+  overflow-y: auto;
+}
