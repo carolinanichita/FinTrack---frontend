@@ -3,7 +3,6 @@ import {
   Calendar,
   momentLocalizer,
   SlotInfo,
-  // ToolbarProps,
 } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -56,10 +55,6 @@ interface TableDay {
   rows: Row[];
   date: string;
 }
-
-// type CustomToolbarProps = ToolbarProps & {
-//   changeMonth: (arrowFunction: string) => void;
-// };
 
 const convertTransactionsToEvents = (dayreports: DayReport[]): Event[] => {
   return dayreports.flatMap((dayreport) => {
@@ -116,7 +111,6 @@ const getCategoryColor = (category: string) => {
 };
 
 export const CalenderPage = (props: CalenderPageProps) => {
-  // const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [modalState, setModalState] = useState(false);
   const [eventsData, setEventsData] = useState<Event[]>([]);
   const [transactionDataExpense, setTransactionDataExpense] = useState<
